@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -144,8 +144,8 @@ section { min-height: 100vh; padding: 80px 20px; display: flex; justify-content:
 <div class="container hero-inner">
     <div class="tiny">a tiny surprise</div>
     <div class="hero-title">Happy<br><span>Birthday.</span></div>
-    <div class="date-pill">14 • 09 • 2027</div>
-    <p class="hero-text">I made something small. It’s probably unnecessary. But hey... you’re worth a little effort.</p>
+    <div class="date-pill">07 • 04 • 2027</div>
+    <p class="hero-text">I made something small. It's probably unnecessary. But hey... you're worth a little effort.</p>
     <button class="start-btn" onclick="startExperience()">Okay, what's this? →</button>
 </div>
 </section>
@@ -253,9 +253,9 @@ section { min-height: 100vh; padding: 80px 20px; display: flex; justify-content:
     <div class="secret-card">
         <div style="font-size:50px;margin-bottom:10px;">👀</div>
         <h2>You found it.</h2>
-        <p>Nggak ada hadiah rahasia.<br>Gue cuma mau bilang...</p>
+        <p>There’s no secret gift.<br>I just want to say...</p>
         <br>
-        <p class="hand" style="font-size:30px;">Semoga hari ini jadi salah satu hari yang kamu inget dengan senyum.</p>
+        <p class="hand" style="font-size:30px;">I hope today becomes one of those days you remember with a smile.</p>
     </div>
 </div>
 </section>
@@ -341,7 +341,7 @@ function chaos() {
         "I told you not to click it 😭",
         "Why did you click it again??",
         "Hmm... this button seems too tempting.",
-        "Okay, last one. Seriously.",
+        "Oke terakhir. Seriously.",
         "ALRIGHT THEN 😭🎉",
         "Happy Birthday once again!!!"
     ];
@@ -375,7 +375,7 @@ audio.addEventListener("error", () => {
     console.error("Audio failed to load:", CONFIG.lagu);
 });
 
-const birthdayDate = new Date("September 14, 2027 00:00:00").getTime();
+const birthdayDate = new Date("April 7, 2027 00:00:00").getTime();
 function updateCountdown() {
     const now = new Date().getTime();
     const distance = birthdayDate - now;
